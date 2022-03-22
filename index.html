@@ -5,34 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+
+
 </head>
 <body>
     <header class="header">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">RÉSUME</a></li>
-        </ul>
+        <nav>
+            <div class="Line-1"></div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">RÉSUME</a></li>
+            </ul>
+            <div class="Line-2"></div>
+            <!-- <svg class="hamburger-menu" viewBox="0 0 32 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 5.39941H28V6.99941H4V5.39941ZM4 19.7994H28V21.3994H4V19.7994ZM4 10.1994H28V11.7994H4V10.1994ZM4 14.9994H28V16.5994H4V14.9994Z" fill="black"/>
+            </svg>-->
+        </nav>
     </header>
 
+
     <section class="sec-hero">
-        <h3 class="intro">Hello</h3>
-        <h1 class="intro">I'm Manvir</h1>
-        <h3 class="intro">UX/UI Designer</h3>
-        <p class="intro">I'm a UX/UI Designer who is enthusiastic about using my abilities to create heart-centered digital solutions that are unique and meaningful.</p>
+        <div class="hero-background"></div>
+        <div class="_VIN2703-1"></div>
+        <span class="Hello">Hello</span>
+        <span class="Manvir">I'm Manvir</span>
+        <span class="career-name">UX/UI Designer</span>
+        <span class="my-intro">I'm a UX/UI Designer who is enthusiastic about using my abilities to create heart-centered digital solutions that are unique and meaningful.</span>
+        <button>SEE WORK BELOW</button>
+        <button>MORE ABOUT ME</button>
     </section>
 
-    <section class="sec-project">
-        <h2>Project</h2>
 
-        <div class="project-container">
-            <div class="project-1">Project-1</div>
-            <div class="project-2">Project-2</div>
-        </div>
+    <section class="sec-projects">
+        <div class="Project">
+            <div class="project-container">
+                <h2 class="project-1">DisabilitySA</h2>
+                <p class="project-1">UX/UI Website Redesign</p>
+            </div>
+            <img src="images/DisabilitySA.png" alt="DisabilitySA">
+        </div>   
+        
+
+        <div class="Project">
+            <div class="project-container">
+                <h2 class="project-2">TravelTrak</h2>
+                <p class="project-2">UX iOS Mobile App</p>
+            </div>
+            <img src="images/TravelTrak.png" alt="TravelTrak">
+        </div> 
     </section>
 
+
+    <div class="footer">
+        <a href="#" class="email">SEND AN EMAIL</a>
+        <a href="#" class="linkedin">CONTACT VIA LINKEDIN</a>
+        <a href="#" class="contact">CONTACT</a>
+    </div>
 
 </body>
 </html>
