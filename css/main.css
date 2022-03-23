@@ -9,6 +9,26 @@ a {
   letter-spacing: 6.33px;
 }
 
+.Line-1 {
+  position: absolute;
+  left: 7.43%;
+  right: 74.86%;
+  top: 2.96%;
+  bottom: 97.04%;
+  
+  border: 2px solid #333333;
+}
+
+.Line-2 {
+  position: absolute;
+  left: 74.86%;
+  right: 7.43%;
+  top: 2.96%;
+  bottom: 97.04%;
+  
+  border: 2px solid #333333;
+}
+
 nav {
 
 }
