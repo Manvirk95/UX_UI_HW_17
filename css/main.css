@@ -42,7 +42,7 @@ ul {
 .hero-background {
   position: relative;
   margin-left: 250px;
-  padding: 20%;
+  padding: 25%;
   background-color: #f4f1f0;
 }
 
@@ -50,8 +50,8 @@ ul {
 .profilePic {
   position: absolute;
   margin-left: 60%;
-  width: 585px;
-  height: 825px;
+  width: 685px;
+  height: auto;
   top: 107px;
 }
 
@@ -140,7 +140,7 @@ ul {
 
 .Projects {
   position: relative;
-  margin-top: 15%;
+  margin-top: 10%;
   left: 100px;
   font-style: normal;
   font-weight: 500;
@@ -174,6 +174,11 @@ ul {
   gap: 3em;
   margin-top: 8em;
   margin-bottom: 8em;
+}
+
+.content {
+  text-align: left;
+  width: 25em;
 }
 
 
