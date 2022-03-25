@@ -8,7 +8,7 @@ body {
 a {
   text-decoration: none;
   font-size: 24px;
-  letter-spacing: 6.33px;
+  letter-spacing: 5px;
 }
 
 
@@ -16,7 +16,7 @@ header {
   position: fixed;
   background-color: white;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
 }
 
 
@@ -44,7 +44,6 @@ ul {
   margin-left: 250px;
   padding: 20%;
   background-color: #f4f1f0;
-  z-index: -1;
 }
 
 
@@ -54,7 +53,6 @@ ul {
   width: 585px;
   height: 825px;
   top: 107px;
-  z-index: 1;
 }
 
 
@@ -65,7 +63,7 @@ ul {
   left: 100px;
   top: 225px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 48px;
   line-height: 72px;
   color: #333333;
@@ -77,7 +75,7 @@ ul {
   height: 150px;
   left: 100px;
   top: 287px;
-  font-weight: 700, bold;
+  font-weight: 700;
   font-size: 100px;
   line-height: 150px;
   color: #333333;
@@ -90,7 +88,7 @@ ul {
   left: 100px;
   top: 427px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 48px;
   line-height: 72px;
   color: #333333;
@@ -103,7 +101,7 @@ ul {
   left: 100px;
   top: 524px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 26px;
   line-height: 39px;
   color: #333333;
@@ -118,6 +116,10 @@ ul {
   background: #D4C5B8;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  border: 0;
+  letter-spacing: 5px;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .button2 {
@@ -129,6 +131,56 @@ ul {
   background: #D4C5B8;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  border: 0;
+  letter-spacing: 5px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+.Projects {
+  position: relative;
+  margin-top: 15%;
+  left: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+
+.projectName {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #333333;
+}
+
+
+.projectInfo {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: #333333;
+
+}
+
+.Project {
+  position: relative;
+  display: grid;
+  left: 100px;
+  grid-template-columns: repeat(2, auto);
+  gap: 3em;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: white;
 }
 
 
